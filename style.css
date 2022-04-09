@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:black;
+  color: white;
+}
+
+#score {
+  display: flex;
+  padding-left: 100px;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.titre{
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.corp{
+  border: solid white  2px;
+  width:450px;
+  background-color:#34495e;
+}
+.case {
+  border: 1px solid;
+  border: none;
+  width: 32px;
+  height: 37px;
+  box-shadow: 1px 1px 1px 1px gray;
+  background: black;
+  color: white;
+  padding-right: 5px; 
+}
+
+.choix {
+  border: 1px solid;
+  border: none;
+  border-radius: 15px;
+  background: #dfdfdf;
+  /* padding: 15px 25px; */
+}
+.choix:hover,
+.case:hover {
+  cursor: pointer;
+}
+.tableImage {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: solid white 2px; */
+}
+
+.tableImage td {
+  text-align: center;
+  padding: 3px;
+}
+
+.tableImage img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+  border: none;
+  height: 150px;
+  border-radius: 2px;
+}
+
+.tableLettreReponse {
+  width: 80%;
+  margin-left: 10%;
+}
+.LettreReponse {
+  width: 100%;
+  text-align: center;
+}
+.tableLettreReponse td {
+  text-align: center;
+}
+.tableLettre {
+  width: 450px;
+  margin: auto;
+  display: flex;
+  /* border: solid white 2px; */
+  align-items: center;
+}
+.tableLettre td {
+  text-align: center;
+  padding: 10px;
+  padding-left: 15px;
+  /* border: solid white 2px; */
+}
+.tableLettre tr {
+  padding-right: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color:black;
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tableLettre a {
+  text-decoration: none;
+  margin: 10px;
+  margin-right: auto;
+  background-color: white;
+
+}
